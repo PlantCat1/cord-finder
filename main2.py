@@ -11,6 +11,7 @@ if planet == "1":
     diameter = 1000
     global omheight
     omheight = 213.5
+
 OM1Distance = float(input("What is your distance to OM1? > "))
 OM2Distance = float(input("What is your distance to OM2? > "))
 
