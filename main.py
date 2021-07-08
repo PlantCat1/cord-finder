@@ -1,10 +1,9 @@
+#if cord is already known
 import math
 
 planet = input(
 """What planet or moon are you on?
 1. Hurston
-2. blah
-3. blah
 > """)
 
 if planet == "1":
