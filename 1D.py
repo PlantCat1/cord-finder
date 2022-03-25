@@ -27,7 +27,7 @@ def cordfinder(): #finds current cordinate using om distances
         print("Cordinate: " + str(cord))
         print("Cordinate2: " + str(cord2))
 
-omorcord = input("From current cordinates or from OM distances? (1/2) ") #asks user if they want to find OM distance from current cordinates or vice versa
+omorcord = input("From current cordinates [1] or from OM distances[2]? ") #asks user if they want to find OM distance from current cordinates or vice versa
 
 if omorcord == "1": #to later decide which function to use
     omorcord = True
