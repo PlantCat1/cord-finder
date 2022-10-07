@@ -19,6 +19,15 @@ import math
 omdistance = 10 #OM distances from origin
 bodyradius = 5 #radius of planet
 
+devmode = input("devmode 'on' or 'off'?: ")
+if devmode == "on":
+    devmode = True
+else:
+    devmode = False
+
+if devmode == True:
+    print("devmode is now enabled.")
+
 def omfinder():
     x = round(float(input("x cord?: ")), 2)
     y = round(float(input("y cord?: ")), 2)
@@ -39,9 +48,9 @@ def omfinder():
 
 def cordfinder():
     om1distance = round(float(input("OM1 distance?: ")), 2)
-    om1distance = round(float(input("OM2 distance?: ")), 2)
-    om1distance = round(float(input("OM3 distance?: ")), 2)
-    om1distance = round(float(input("OM4 distance?: ")), 2)
+    om2distance = round(float(input("OM2 distance?: ")), 2)
+    om3distance = round(float(input("OM3 distance?: ")), 2)
+    om4distance = round(float(input("OM4 distance?: ")), 2)
 
 omfinderorcordfinder = input("From current cordinates [1] or from OM distances [2]? ")
 if omfinderorcordfinder == "1":
