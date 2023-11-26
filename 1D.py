@@ -1,3 +1,15 @@
+"""
+*                   *
+ \                    |
+  \                     
+   \ OM1Distance      | omheight
+    \  
+―――――*――――――――――――――― |
+     ^cord
+----- ---------------
+OM1Leg           OM2 Leg
+"""
+
 import math
 
 def omfinder(): #finds om distances based on cords
