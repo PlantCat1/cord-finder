@@ -19,7 +19,7 @@ def omfinder(): #finds om distances based on cords
         quit()
     OM1Leg = cord #distance from edge of plane
     OM2Leg = diameter - cord
-    print("OM1 Leg Distance: " + str(OM1Leg))
+    print("OM1 Leg Distance: " + str(OM1Leg)) ()
     print("OM2 Leg Distance: " + str(OM2Leg))
     OM1Distance = round(math.sqrt((OM1Leg ** 2) + omheight ** 2), 2) #a^2 + b^2 = c^2 using current distance from edge and om heights
     OM2Distance = round(math.sqrt((OM2Leg ** 2) + omheight ** 2), 2)
